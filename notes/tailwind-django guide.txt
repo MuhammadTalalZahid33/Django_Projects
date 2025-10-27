@@ -12,3 +12,6 @@ TAILWIND_APP_NAME = 'theme'
 INTERNAL_IPS = ['127.0.0.1', 'localhost']
 
 python manage.py tailwind install
+
+**** if you get node not exist error, add following path in settings.py
+NPM_BIN_PATH = r"C:\Users\****\npm.cmd"
