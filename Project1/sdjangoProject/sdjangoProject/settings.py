@@ -44,7 +44,6 @@ INSTALLED_APPS = [
 ]
 
 TAILWIND_APP_NAME = 'theme'
-
 INTERNAL_IPS = ['172.0.0.1', 'localhost']
 
 MIDDLEWARE = [
@@ -129,3 +128,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+NPM_BIN_PATH = r" C:\nvm4w\nodejs\npm.ps1"

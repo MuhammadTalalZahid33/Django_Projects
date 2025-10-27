@@ -1,0 +1,14 @@
+*********** tailwind in django guide
+
+pip install django-tailwind
+pip install 'django-tailwind[reload]'
+=> add 'tailwind' in the app section of settings.py
+python manage.py tailwind init
+=>[app name/default]
+=> add [app name] in the app section of settings.py
+
+******* Additional Configurations
+TAILWIND_APP_NAME = 'theme'
+INTERNAL_IPS = ['127.0.0.1', 'localhost']
+
+python manage.py tailwind install
