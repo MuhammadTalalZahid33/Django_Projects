@@ -1,0 +1,34 @@
+************django installation Commands***********
+python -m pip install upgrade pip(optional)
+
+*********Standard =>
+python -m venv .venv           
+.venv\Scripts\activate
+
+********* Installing django
+pip install django
+
+********* Activating and running django Project
+django-admin startproject [project name]
+cd [project name]
+python manage.py runserver
+
+********* Making django App
+python manage.py startapp [app name]
+
+
+
+*****************************************************
+********** Using uv => 
+pip install uv 
+uv venv (if error => pip show uv(copy path))
+venv\Scripts\activate
+
+uv pip install django
+
+
+
+
+
+
+
